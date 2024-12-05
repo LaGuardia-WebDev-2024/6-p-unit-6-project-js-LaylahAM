@@ -9,10 +9,11 @@ void setup() {
 void draw(){
   fill(255,255,255);
   strokeWeight(1);
-
-  //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
   
 
+  //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
+  ellipse(200,200,260,200)
+  ellipse(120,170,50,50)
   
 
 }
