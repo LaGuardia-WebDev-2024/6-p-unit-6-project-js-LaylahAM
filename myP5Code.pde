@@ -9,10 +9,23 @@ void setup() {
 void draw(){
   fill(255,255,255);
   strokeWeight(1);
+  
 
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
   
+//head
+fill(255, 204, 0)
+ellipse(200,200,240,200)
 
+//eyes
+  fill(88,57,39)
+  ellipse(160,190,20,50)
+  fill(88,57,39)
+    ellipse(230,190,20,50)
+    
+    //mouth
+    fill(85,42,42)
+    ellipse(200,245,95,0)
   
 
 }
@@ -52,4 +65,3 @@ void keyPressed(){
     fillB = 0;
   }
 }
-
